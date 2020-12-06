@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table booking</title>
+    <style>    *{
+        margin:0;
+        padding:0;
+    
+        
+    }
+    .cont{
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100vw;
+        height: 100vh;
+       
+    }
+    .main{
+        background-color: white;
+        width:600px;
+        height: 480px;
+        padding: 10px;
+        
+    }
+        .form2{
+            border:2px solid rgb(245, 245, 32);
+        }
+        .guest,.sections,.text1,.sumbition{
+            padding: 20px;
+        }
+        #name{
+            margin: 10px;
+        }
+        #submit{
+            padding: 10px;
+            margin: 10px;
+        }
+        p{
+            padding: 10px;
+            font-size: 25px;
+        
+        }
+       .sections #nname, #sname{
+            background-color: red;
+            height: 35px;
+            color: white;
+            font-size: 20px;
+            border: 2px solid lightgrey;
+            padding: 5px;
+            margin: 10px;
+        } 
+        #sname{
+            background-color:green;
+        }
+        #time ,#date{
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+   <div class="cont">
+       <div class="main">
+       <form >
+<div class="form2">
+    <p> Number of Guest:</p>
+    <div class="guest">
+    
+    <input type="radio" id="name" value="first"/>1
+           <input type="radio" id="name" value="second"/>2
+           <input type="radio" id="name" value="three"/>3
+           <input type="radio" id="name" value="4"/>4
+           <input type="radio" id="name"value="5"/>5
+           <input type="radio" id="name"value="6"/>more than 5
+           </div>
+<p>Section:</p>
+           <div class="sections">
+               <input type="button" id="sname" value="Non-smoking" required>
+               <input type="button" id="nname" value="Smoking" required>
+           </div>
+           <p>Date and Time</p>
+           <div class="text1">
+            <input type="text" id="time" placeholder="Date" required>
+            <input type="text" id="date" placeholder="Time" required >
+
+           </div>
+<div class="sumbition">
+           <input type="submit" value="Reserve" id="submit">
+           <input type="submit" value="Cencle" id="submit">
+        </div>
+        </div>
+    
+          
+
+       </form>
+   </div>
+    
+
+</div>
+    
+</body>
+</html>
