@@ -75,3 +75,15 @@
   .modal-content .modal-footer {
     background: #D1C4E9;
     border-top: none; }
+.footer{
+  
+  background-color:#8662d8;
+  color:white
+}
+    .list-unstyled a{
+color:white;
+    }
+  .text-center a{
+    background-color: white;
+    color:black;
+    }
